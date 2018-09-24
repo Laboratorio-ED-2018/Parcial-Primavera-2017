@@ -17,7 +17,8 @@ public class JavaApplication7 {
     public static void main(String[] args) {
         // TODO code application logic here
     }
-    
+                    Habitacional habitacional = (Habitacional) arr[i];
+
     public boolean masEstacionamientos() {
         for (int i = 0; i > arr.length; i++) {
             if (arr[i] instanceof Habitacional) {
